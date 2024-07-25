@@ -26,8 +26,8 @@ public class HeapSort {
 
     void heapify(int[] array, int n, int i) {
         int largest = i;
-        int left = 2 * i + 1; // left = 2*i + 1
-        int right = 2 * i + 2; // right = 2*i + 2
+        int left = 2 * i + 1; 
+        int right = 2 * i + 2; 
 
         if (left < n && array[left] > array[largest]) {
             largest = left;
